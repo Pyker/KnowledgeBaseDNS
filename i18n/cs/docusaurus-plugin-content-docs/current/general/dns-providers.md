@@ -765,6 +765,15 @@ ByteDance Public DNS je bezplatná alternativní DNS služba společnosti ByteDa
 | --------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | DNS, IPv4 | `180.184.1.1` a `180.184.2.2` | [Přidat do AdGuardu](adguard:add_dns_server?address=180.184.1.1&name=), [Přidat do AdGuard VPN](adguardvpn:add_dns_server?address=180.184.1.1&name=) |
 
+### CERT-EE
+
+CERT-EE (RIA) provides a DNS service that blocks malicious and phishing domains. Operated in Estonia, it works abroad as well. Requests are encrypted to enhance privacy and prevent interception or spoofing.
+
+| Protokol       | Adresa                          |                                                                                                                                                                                                                             |
+| -------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DNS-over-HTTPS | `https://dns.cert.ee/dns-query` | [Add to AdGuard](adguard:add_dns_server?address=https://dns.cert.ee/dns-query&name=dns.cert.ee/dns-query), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=https://dns.cert.ee/dns-query&name=dns.cert.ee/dns-query) |
+| DNS-over-TLS   | `tls://dns.cert.ee`             | [Add to AdGuard](adguard:add_dns_server?address=tls://dns.cert.ee&name=dns.cert.ee), [Add to AdGuard VPN](adguardvpn:add_dns_server?address=tls://dns.cert.ee&name=dns.cert.ee)                                             |
+
 ### CIRA Canadian Shield DNS
 
 [CIRA Shield DNS](https://www.cira.ca/cybersecurity-services/canadianshield/how-works) chrání před krádeží osobních a finančních údajů. Chrání vás před viry, ransomwarem a dalším malwarem.
